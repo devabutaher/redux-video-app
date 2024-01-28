@@ -1,38 +1,6 @@
-[![Youtube][youtube-shield]][youtube-url]
-[![Facebook][facebook-shield]][facebook-group-url]
-
-<!-- PROJECT LOGO -->
-<br />
-<p align="center">
-    <img src="https://avatars.githubusercontent.com/u/73503432?v=4" alt="Logo" width="80" height="80" />
-    <h3 align="center"><a href="https://learnwithsumit.com/courses/think-in-a-redux-way/setup-routing">THINK IN A REDUX WAY - MODULE 6 - LESSON 4 </a></h3>
-</p>
-
-<!-- TABLE OF CONTENTS -->
-
-## ![tableOfContent][tableofcontent-shield] Table of Contents
-
-| HTML TEMPLATE                            | SERVER TEMPLATE                              | CODE RUN                   | CONTACT                    |
-| ---------------------------------------- | -------------------------------------------- | -------------------------- | -------------------------- |
-| [Get HTML template](#-get-html-template) | [Get SERVER template](#-get-server-template) | [How to run](#-how-to-run) | [Contact us](#-contact-us) |
-
-<br>
-
-<!-- GET HTML TEMPLATE -->
-
-## ![htmlIcon][htmlicon-shield] Get HTML Template
-
-You can find the raw HTML template of the video application from the "html_template" folder.
-
-<!-- GET SERVER TEMPLATE -->
-
-## ![serverIcon][servericon-shield] Get SERVER Template
-
-You can find the raw SERVER template of the video application from the "server" folder.
-
 <!-- HOW TO RUN -->
 
-## ![rocketIcon][rocketicon-shield] How to run
+## How to run
 
 Please follow the below instructions to run this branch in your machine:
 
@@ -40,25 +8,21 @@ Please follow the below instructions to run this branch in your machine:
 
 2. Clone this repository -
    ```sh
-   git clone https://github.com/Learn-with-Sumit/think-in-a-redux-way.git
+   git clone https://github.com/writerabutaher/redux-video-app.git
    ```
 3. Go to the cloned project directory
    ```sh
-   cd think-in-a-redux-way
+   cd redux-video-app
    ```
-4. Checkout/switch to branch 6.4
-   ```sh
-   git checkout 6.4
-   ```
-5. Install dependencies
+4. Install dependencies
    ```sh
    npm i
    ```
-6. Install VS Code [Live Server plugin](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) & start the server.
+5. Install VS Code [Live Server plugin](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) & start the server.
    ```sh
    npm start
    ```
-7. Your app should be available in http://localhost:3000
+6. Your app should be available in http://localhost:3000
 
 <br>
 
