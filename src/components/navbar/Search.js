@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
+import { useMatch, useNavigate } from "react-router-dom";
 import { searched } from "../../features/filter/filterSlice";
 
 export default function Search() {
@@ -7,9 +8,16 @@ export default function Search() {
   const [text, setText] = useState(search);
   const dispatch = useDispatch();
 
+  const match = useMatch("/");
+  const navigate = useNavigate();
+
   const handleSubmit = (e) => {
     e.preventDefault();
     dispatch(searched(text));
+
+    if (!match) {
+      navigate("/");
+    }
   };
 
   return (
