@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { fetchVideos } from "../../features/videos/videoSlice";
-import Loading from "../../ui/Loading";
+import Loading from "../ui/Loading";
 import VideoGridItem from "./VideoGridItem";
 
 export default function VideGrid() {

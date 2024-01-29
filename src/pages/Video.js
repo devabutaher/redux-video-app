@@ -4,8 +4,8 @@ import { useParams } from "react-router-dom";
 import VideoPlayer from "../components/description/Player";
 import VideoDescription from "../components/description/VideoDescription";
 import RelatedVideoList from "../components/list/RelatedVideoList";
+import Loading from "../components/ui/Loading";
 import { fetchVideo } from "../features/video/videoSlice";
-import Loading from "../ui/Loading";
 
 export default function Video() {
   const { video, isLoading, isError, error } = useSelector(
